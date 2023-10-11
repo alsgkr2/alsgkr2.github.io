@@ -33,15 +33,16 @@
 # [관련 이미지 & 동영상]
 
 - 이미지  
-  <img src="https://course.pcu.ac.kr/pluginfile.php/716070/mod_forum/post/31091/image.png">
+  ![image](https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/f4027ade-dc44-4a84-83bb-01b97c99e1d6)
+
 - 동영상
-  [![](https://course.pcu.ac.kr/pluginfile.php/716070/mod_forum/post/31091/image.png)](https://www.youtube.com/watch?v=J3kPMRA_JYE&t=37s)
+  [![image](https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/f4027ade-dc44-4a84-83bb-01b97c99e1d6)](https://www.youtube.com/watch?v=J3kPMRA_JYE&t=37s)
 
 <br><br>
 
 # [대표 이미지]
 
-![그림](https://course.pcu.ac.kr/pluginfile.php/716071/mod_forum/post/31113/%EB%8C%80%ED%91%9C%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg)
+![대표이미지](https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/52caa8dc-aa36-4ce0-a472-9d298cd010de)
 
 <br><br>
 
