@@ -139,49 +139,52 @@
 
 |연번|종류|오브젝트 이름|오브젝트 영문명|사용처|오브젝트 이미지|
 |:----:|:----:|:----:|:----:|:----:|:----:|
-|1|플레이어|플레이어|player|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/f4027ade-dc44-4a84-83bb-01b97c99e1d6" width="500">|
-|2|적|보스1|boss1|스테이지1|<img src="./img/축구장.png" width="500">|
-|3|적|산적|bandit|스테이지1|<img src="./img/축구장.png" width="500">|
-|4|적|보스2|boss2|스테이지2|<img src="./img/축구장.png" width="500">|
-|5|적|보스3|boss3|스테이지3|<img src="./img/축구장.png" width="500">|
-|6|ui|플레이어 체력|player_hp|공통|<img src="./img/축구장.png" width="500">|
-|7|ui|플레이어 내공|player_mp|공통|<img src="./img/축구장.png" width="500">|
-|8|스킬|플레이어 스킬1|player_Skill1|공통|<img src="./img/축구장.png" width="500">|
-|9|스킬|플레이어 스킬2|player_Skill2|공통|<img src="./img/축구장.png" width="500">|
-|10|스킬|플레이어 스킬3|player_Skill3|공통|<img src="./img/축구장.png" width="500">|
-|11|스킬|플레이어 스킬4|player_Skill4|공통|<img src="./img/축구장.png" width="500">|
-|12|ui|보스 이름|boss_name|공통|<img src="./img/축구장.png" width="500">|
-|13|ui|보스 체력|boss_hp|공통|<img src="./img/축구장.png" width="500">|
-|14|ui|옵션|option|공통|<img src="./img/축구장.png" width="500">|
+|1|플레이어|플레이어|player|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/03d30d0d-cc61-469e-addd-ad85467ef077" width="300">|
+|2|적|보스1|boss1|스테이지1|<img src="" width="500">|
+|3|적|산적|bandit|스테이지1|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/931c81ff-7111-4791-a295-cdb6bba1b117" width="300">|
+|4|적|보스2|boss2|스테이지2|<img src="" width="500">|
+|5|적|보스3|boss3|스테이지3|<img src="" width="500">|
+|6|ui|플레이어 체력|player_hp|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/164b4cd2-d0d2-451a-8911-e0883102beed" width="300">|
+|7|ui|플레이어 내공|player_mp|공통|<img src="" width="500">|
+|8|스킬|플레이어 스킬1|player_Skill1|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/b87bfe3b-43de-4aa7-bbfa-8c2eac1cfe29" width="300">|
+|9|스킬|플레이어 스킬2|player_Skill2|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/f466b1d2-ea6e-4d60-9d67-972d51bb9239" width="300">|
+|10|스킬|플레이어 스킬3|player_Skill3|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/785c55c1-45a3-4ad5-8a09-c33f78af9bdc" width="300">|
+|11|스킬|플레이어 스킬4|player_Skill4|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/09dcc8a4-a59c-4cab-910e-6fdce47fbe21" width="300">|
+|12|ui|보스 이름|boss_name|공통|<img src="" width="500">|
+|13|ui|보스 체력|boss_hp|공통|<img src="" width="500">|
+|14|ui|옵션|option|공통|<img src="https://github.com/alsgkr2/alsgkr2.github.io/assets/116986725/58819e6c-6503-4ee2-a472-57aaaee2cf92" width="300">|
 
 <br>
 
 ## 2-1. 파라미터(속성) 뽑아 보기
 ### 2-2. 오브젝트 이름 : 플레이어
+
 |속성|영문명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|이름|Player_Name|플레이어 캐릭터의 이름||
+|이름|Player_Name|플레이어 캐릭터의 이름| |
 |체력|Player_Hp|플레이어 생존에 관련된 값 0이 되면 죽게 되고 행동불능이 됨|0이 될 시 사망 애니메이션 실행|
-|내공|Player_Mp|스킬 사용에 소모되는 값 0이 되면 스킬을 사용할 수 없게 됨||
-|공격력|Player_AttackPoint|스킬의 데미지에 영향을 주는 값 높아질수록 스킬이 강해짐||
-|이동속도|Player_Speed|플레이어의 이동에 관련된 값 높아지면 빨라지며 낮아지면 느려짐||
-|쿨타임|Player_SkillCoolTime|플레이어의 각 스킬에 따라 변경되는 값 0이 될 시 사용가능하며, 그 외에는 해당 스킬을 사용 할 수 없어짐||
-|상태|Player_Status|플레이어의 현재 상태 평소, 행동/이동 불가, 사망 등||
+|내공|Player_Mp|스킬 사용에 소모되는 값 0이 되면 스킬을 사용할 수 없게 됨| |
+|공격력|Player_AttackPoint|스킬의 데미지에 영향을 주는 값 높아질수록 스킬이 강해짐| |
+|이동속도|Player_Speed|플레이어의 이동에 관련된 값 높아지면 빨라지며 낮아지면 느려짐| |
+|쿨타임|Player_SkillCoolTime|플레이어의 각 스킬에 따라 변경되는 값 0이 될 시 사용가능하며, 그 외에는 해당 스킬을 사용 할 수 없어짐| |
+|상태|Player_Status|플레이어의 현재 상태 평소, 행동/이동 불가, 사망 등| |
 
 ### 2-2. 오브젝트 이름 : 보스1, 보스2, 보스3
+
 |속성|영문명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|이름|Boss_Name|보스 캐릭터의 이름||
+|이름|Boss_Name|보스 캐릭터의 이름| |
 |체력|Boss_Hp|보스의 생존에 관련된 값 0이 되면 죽게 되고 스테이지가 클리어 됨|0이 될 시 사망 애니메이션 실행|
-|공격력|Boss_AttackPoint|스킬의 데미지에 영향을 주는 값 높아질수록 스킬이 강해짐||
-|이동속도|Boss_Speed|보스의 이동에 관련된 값 높아지면 빨라지며 낮아지면 느려짐||
-|쿨타임|Boss_SkillCoolTime|보스의 각 스킬에 따라 변경되는 값 0이 될 시 조건에 따라 사용함 그 외 에는 해당 스킬을 사용하지 않는다||
-|상태|Boss_Status|보스의 현재 상태 평소, 행동/이동 불가, 사망 등||
+|공격력|Boss_AttackPoint|스킬의 데미지에 영향을 주는 값 높아질수록 스킬이 강해짐| |
+|이동속도|Boss_Speed|보스의 이동에 관련된 값 높아지면 빨라지며 낮아지면 느려짐| |
+|쿨타임|Boss_SkillCoolTime|보스의 각 스킬에 따라 변경되는 값 0이 될 시 조건에 따라 사용함 그 외 에는 해당 스킬을 사용하지 않는다| |
+|상태|Boss_Status|보스의 현재 상태 평소, 행동/이동 불가, 사망 등| |
 
 <br>
 
 ## 3. 행동 뽑아 보기
 ### 3-1. 오브젝트 이름 : 플레이어
+
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
 |이동|Player_Move|↑, ↓, ←, →키 입력 시 상, 하, 좌, 우로 플레이어가 이동함|
@@ -193,6 +196,7 @@
 |사망|Player_Die|Hp가 0이 될 시 사망 애니메이션이 나오며 아무런 행동을 할 수 없게 됨|
 
 ### 3-2. 오브젝트 이름 : 보스1, 보스2, 보스3
+
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
 |이동|Boss_Move|보스가 조건에 맞게 위치를 이동함|
@@ -203,6 +207,7 @@
 
 ## 4. 상태 뽑아 보기
 ### 4-1. 오브젝트 이름 : 플레이어
+
 |현상태|전이상태|전이조건|
 |:----:|:----:|:----:|
 |Idle(기본 상태)|Left_Move(왼쪽 이동)|A키 버튼 입력|
@@ -213,6 +218,7 @@
 |Idle(기본 상태)|Die(사망)|Hp가 0이 될시|
 
 ### 4-2. 오브젝트 이름 : 보스1, 보스2, 보스3
+
 |현상태|전이상태|전이조건|
 |:----:|:----:|:----:|
 |Idle(기본 상태)|Move(이동)|조건에 맞을 시|
@@ -222,6 +228,7 @@
 <br>
 
 ## 5. 플레이어 캐릭터 속성(파라미터)
+
 |속성|영문명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
 |화산파|Hwasan_Clan|매화검법을 사용하는 무인 / 환검 / 데미지 중 / 스피드 중 / 방어력 중|밸런스형 제일 화려함|
@@ -233,6 +240,7 @@
 
 ## 6. 게임의 규칙
 ### 6-1. 핵심 규칙
+
 게임은 1~4인으로 플레이 구성됨 <br/>
 플레이어는 캐릭터 선택 창에서 캐릭터를 선택함 <br/>
 방장이 서버를 만든 후에 다른 플레이어들이 접속한 뒤 방장이 게임을 시작시킴 <br/>
@@ -243,12 +251,14 @@
 마지막 3스테이지 보스의 Hp를 0으로 만들시 게임 클리어 <br/>
 
 ### 6-2. 보조 규칙
+
 플레이어의 성장시스템은 스텟변화와 새로운 스킬 해방 <br/>
 한명의 플레이어라도 생존한 상태로 보스 클리어시 Die(사망) 상태인 플레이어들은 모두 부활함
 
 <br>
 
 ## 7. 게임에서 사용될 공식
+
 데미지 계산 방식
 1. 보스에게 플레이어의 스킬이 적중한다.
 2. 보스 체력 변수값 -= (플레이어 캐릭터 데미지 스텟 변수값 * 사용 스킬 변수값) - 보스 방어력 변수값
@@ -261,6 +271,7 @@
 <br><br>
 
 # [요구사항(6주차)] <a name='6'></a>
+
 1. 플레이어 스킬 시스템  <br/>
 
 *1-1 회피 스킬 제작 <br/>
@@ -288,6 +299,7 @@
 <br><br>
 
 # [요구사항(1년차)] <a name='66'></a>
+
 1. UI
 
 *1-1. 타이틀 화면 <br/>
